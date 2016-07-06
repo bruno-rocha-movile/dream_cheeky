@@ -13,7 +13,7 @@ DreamCheeky::BigRedButton.run do
     profile = Selenium::WebDriver::Firefox::Profile.from_name 'WatirWebDriver'
     ##profile.add_extension 'autoauth-2.1-fx+fn.xpi'
     browser = Watir::Browser.new :firefox, :profile => 'default'
-    browser.goto 'file:///Users/Bruno/Desktop/Personal%20Codes/dream_cheeky-master/examples/movilejenkins.html'
+    browser.goto 'file:///Users/bruno.rocha/Desktop/MovileRepos/dream_cheeky/examples/movilejenkins.html'
   end
 
   close do
